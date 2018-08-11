@@ -25,6 +25,7 @@ canvas {
     width: 400px;
     height: 400px;
     position: relative;
+    margin-top: 5%;
   }
   &-1,
   &-2,
@@ -35,19 +36,19 @@ canvas {
     transform: scale(.4);
   }
   &-1 {
-    top: 30%;
+    top: 20%;
     right: 15%;
   }
   &-2,
   &-overlay {
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: scale(.4) translate(-50%, -50%);
+    transform: scale(.5) translate(-50%, -50%);
   }
   &-3 {
     bottom: 0;
     left: 50%;
-    transform: scale(.8) translateX(-50%);
+    transform: scale(.7) translateX(-50%);
   }
   &-overlay {
     z-index: 0;

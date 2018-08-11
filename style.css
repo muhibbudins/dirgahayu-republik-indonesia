@@ -23,22 +23,23 @@ canvas {
 .text-wrapper {
   width: 400px;
   height: 400px;
-  position: relative; }
+  position: relative;
+  margin-top: 5%; }
 .text-1, .text-2, .text-3, .text-overlay {
   position: absolute;
   transform-origin: 0 0;
   transform: scale(0.4); }
 .text-1 {
-  top: 30%;
+  top: 20%;
   right: 15%; }
 .text-2, .text-overlay {
-  top: 50%;
+  top: 40%;
   left: 50%;
-  transform: scale(0.4) translate(-50%, -50%); }
+  transform: scale(0.5) translate(-50%, -50%); }
 .text-3 {
   bottom: 0;
   left: 50%;
-  transform: scale(0.8) translateX(-50%); }
+  transform: scale(0.7) translateX(-50%); }
 .text-overlay {
   z-index: 0;
   opacity: 0;
