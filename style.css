@@ -49,6 +49,18 @@ canvas {
 .text-2 {
   z-index: 10; }
 
+.quote-wrapper {
+  font-family: 'Marck Script', cursive;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  max-width: 400px;
+  width: 80%; }
+  .quote-wrapper_title {
+    font-size: 1.4rem;
+    color: #ffffff; }
+  .quote-wrapper_description {
+    font-size: .9rem; }
+
 .audio-wrapper iframe {
   opacity: 0;
   width: 0;

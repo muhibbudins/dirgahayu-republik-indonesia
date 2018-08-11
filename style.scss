@@ -63,6 +63,21 @@ canvas {
     z-index: 10;
   }
 }
+.quote-wrapper {
+  font-family: 'Marck Script', cursive;
+  color: transparentize($color: #ffffff, $amount: .4);
+  text-align: center;
+  max-width: 400px;
+  width: 80%;
+
+  &_title {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  &_description {
+    font-size: .9rem;
+  }
+}
 .audio-wrapper {
   iframe {
     opacity: 0;
