@@ -1,8 +1,7 @@
 /**
- * Base on - [Fireworks AnimeJS](https://codepen.io/juliangarnier/pen/gmOwJX)
- * @Author
- * 
- * Improved by @muhibbudins
+ * Base on Anime.js Fireworks canvas demo
+ * @Source https://codepen.io/juliangarnier/pen/gmOwJX
+ * @Author Julian Garnier
  */
 
 window.human = false;
