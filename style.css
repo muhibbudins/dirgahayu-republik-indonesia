@@ -8,6 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100vw;
   height: 100vh; }
 
@@ -46,5 +47,10 @@ canvas {
     opacity: 1; }
 .text-2 {
   z-index: 10; }
+
+.audio-wrapper iframe {
+  opacity: 0;
+  width: 0;
+  height: 0; }
 
 /*# sourceMappingURL=style.css.map */
