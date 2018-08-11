@@ -1,12 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0; }
+
 body {
   background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh; }
 
-#lineDrawing {
-  transform: scale(0.6, 0.6); }
+.fireworks {
+  position: absolute;
+  width: 100vw;
+  height: 100vh; }
+
+canvas {
+  opacity: .2; }
+
+.text-wrapper {
+  width: 400px;
+  height: 400px;
+  position: relative; }
+.text-1, .text-2, .text-3, .text-overlay {
+  position: absolute;
+  transform-origin: 0 0;
+  transform: scale(0.4); }
+.text-1 {
+  top: 30%;
+  right: 15%; }
+.text-2, .text-overlay {
+  top: 50%;
+  left: 50%;
+  transform: scale(0.4) translate(-50%, -50%); }
+.text-3 {
+  bottom: 0;
+  left: 50%;
+  transform: scale(0.8) translateX(-50%); }
+.text-overlay {
+  z-index: 0;
+  opacity: 0;
+  transition-duration: 2s; }
+  .text-overlay_active {
+    opacity: 1; }
+.text-2 {
+  z-index: 10; }
 
 /*# sourceMappingURL=style.css.map */
